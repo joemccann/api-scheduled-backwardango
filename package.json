@@ -1,0 +1,30 @@
+{
+  "name": "api-scheduled-backwardango",
+  "version": "1.2.0",
+  "description": "⏱ Scheduled job to capture and save the results of api-backwardango in BigQuery.",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "standard",
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joemccann/api-backwardango.git"
+  },
+  "keywords": [],
+  "author": "Joe McCann",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joemccann/api-backwardango/issues"
+  },
+  "homepage": "https://github.com/joemccann/api-backwardango#readme",
+  "dependencies": {
+    "api-backwardango": "github:joemccann/api-backwardango",
+    "api-bigquery": "github:joemccann/api-bigquery"
+  },
+  "devDependencies": {
+    "debug": "^4.1.1",
+    "standard": "^12.0.1",
+    "tape": "^4.10.1"
+  }
+}
